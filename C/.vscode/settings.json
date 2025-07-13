@@ -1,0 +1,15 @@
+{
+    "files.associations": {
+        "stdio.h": "c",
+        "utils.h": "c",
+        "time.h": "c",
+        "stdlib.h": "c",
+        "string.h": "c",
+        "string_view": "c",
+        "span": "c",
+        "type_traits": "c",
+        "functional": "c",
+        "string": "c",
+        "format": "c"
+    }
+}
