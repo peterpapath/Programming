@@ -16,9 +16,9 @@ typedef struct struct_graph{
 
 
 int main(int argc, char **argv){
-    Graph *graph;
+    Graph *graph=NULL;
     FILE *f;
-    char *data;
+    char *data=NULL;
     size_t size = 0;
     int read;
 
@@ -44,7 +44,7 @@ int main(int argc, char **argv){
 
     int Number, Length;
     int i=0;
-    char *save_Str;
+    char *save_Str=NULL;
     while ((read = getline(&data,&size,f)) != -1){
         save_Str=strtok(data, " ");
         Number =atoi(save_Str);
@@ -77,7 +77,12 @@ int main(int argc, char **argv){
         printf("\n");
     }
 
-
+    for (int i=0;i<graph_length;i++){
+            free(graph[i].p);
+    } 
+    free(graph);
+    free(data);
+    free(save_Str);
     fclose(f);
     return 0;
 }
