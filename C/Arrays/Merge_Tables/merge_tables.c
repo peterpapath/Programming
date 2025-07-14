@@ -1,7 +1,7 @@
 #include <stdio.h>
 #define arr1items 4
 #define arr2items 4
-#include "../utils/utils.h"
+#include "../../utils/utils.h"
 
 
 int main(){
