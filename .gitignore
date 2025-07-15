@@ -13,6 +13,7 @@ info.txt
 ./C/Structures/Stack/With_header/main
 ./C/Structures/Stack/With_header/main.o
 ./C/Structures/Student_Data_Struct/student_data_struct
+./C/Structures/FIFO/fifo
 ./C/Parameters/parameters
 ./C/programmes/fifth
 ./C/programmes/search
